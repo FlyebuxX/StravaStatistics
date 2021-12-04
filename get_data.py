@@ -29,12 +29,12 @@ def launch():
     # email field
     link_email = driver.find_element_by_id("email")
     link_email.click()
-    link_email.send_keys("valentin.eberhardt57@gmail.com")
+    link_email.send_keys("")
 
     # password field
     link_password = driver.find_element_by_id("password")
     link_password.click()
-    link_password.send_keys("Xoneye@4")
+    link_password.send_keys("")
 
     # check
     button = driver.find_element_by_id("remember_me")
