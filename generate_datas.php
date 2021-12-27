@@ -19,11 +19,8 @@
                 }
                 echo "</tr>";
             }
-
-
         }
         /*On ferme le fichier*/
         fclose($file);
         echo "</table>";
     }
-    ?>
